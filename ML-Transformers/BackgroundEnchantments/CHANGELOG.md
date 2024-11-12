@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 The versioning of this project is directly tied to the version of @vonage/ml-transformers dependency
 
+## 5.2.0-alpha.4 - 2024-11-12
+
+### Changed
+
+- Upgrade @vonage/ml-transformers version 5.2.0-alpha.3. which includes the following:
+  - Improved segmentation
+
 ## 5.2.0-alpha.3 - 2024-11-07
 
 ### Changed
@@ -24,6 +31,7 @@ The versioning of this project is directly tied to the version of @vonage/ml-tra
 
 - Background resizing when using CANVAS renderer
 - Invalid timestamp crash when using Canvas as video source
+- Pipeline crash when changing WebGL renderer multiple times
 
 ## 5.2.0-alpha.2 - 2024-10-23
 
